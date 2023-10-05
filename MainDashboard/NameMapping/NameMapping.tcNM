@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{79EFABF9-A7BC-4F6E-958B-086F2D7310F0}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{FE5813B6-CDDD-47A6-9B10-57885C7C1C73}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{46F3569D-07FE-4B23-AE61-2382D59C6340}">
+								<Image FileName="-1091156719" Left="-8" Top="-8" Right="1288" Bottom="688" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogin" Key="{3D0A1FAF-D083-49BC-AE93-767B556AEACD}">
+								<Image FileName="-1091156719" Left="0" Top="103" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/resources/custom-login/guidehouselogin.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{20733B52-8C86-40FD-8FC7-8FB1C7363B7C}">
+										<Image FileName="-1091156719" Left="267" Top="253" Right="967" Bottom="445" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Keep me logged in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputemail3" Key="{6BB808EF-DD24-45B6-B66B-F7C648680BCD}">
+										<Image FileName="-1091156719" Left="512" Top="268" Right="722" Bottom="298" />
+										<TypeInfo Item0="{A4A6A866-87AF-4C0C-9F5F-C94B4335F040}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputEmail3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxInputpassword3" Key="{C617148A-9572-4F07-8AE6-1586F529AFD3}">
+										<Image FileName="322881736" Left="512" Top="321" Right="722" Bottom="351" />
+										<TypeInfo Item0="{A4A6A866-87AF-4C0C-9F5F-C94B4335F040}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputPassword3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{7C20F03E-CB04-49AF-8ACE-53FDA2C402E4}">
+										<Image FileName="2058239349" Left="542" Top="392" Right="692" Bottom="427" />
+										<TypeInfo Item0="{AE49EBE2-FCF0-4EEB-892B-D700C55718B7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;LoginButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageVitalstatsTibcoSpotfire" Key="{A7ED1378-4F27-451A-8333-8C78DEF59A9D}">
+								<Image FileName="467111614" Left="0" Top="103" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/wp/analysis*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeGoToLibrary" Key="{16CFA9EF-8B14-4083-9211-2A4338ACD796}">
+										<Image FileName="467111614" Left="24" Top="327" Right="352" Bottom="344" />
+										<TypeInfo Item0="{8E1170C5-2019-4B31-A984-0993DC2FBFE0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;Go to Library&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;startPage&apos;)]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/b/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYear" Key="{B3D9F1F6-6C1F-4D9E-90A4-3CBEA0CDB58F}">
+										<Image FileName="1994045608" Left="24" Top="462" Right="104" Bottom="502" />
+										<TypeInfo Item0="{8E1170C5-2019-4B31-A984-0993DC2FBFE0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Year&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//div[contains(@class, &apos;sf-element-table-cell&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelExport" Key="{ECBE0727-3F7B-48D0-8ADE-6BB91E970AA3}">
+										<Image FileName="-1609518700" Left="119" Top="534" Right="239" Bottom="549" />
+										<TypeInfo Item0="{8E1170C5-2019-4B31-A984-0993DC2FBFE0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Export&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Export&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelExportTable" Key="{B1F5A888-F044-4975-A13E-B0BD0FFF4E2D}">
+										<Image FileName="1122452483" Left="318" Top="599" Right="520" Bottom="614" />
+										<TypeInfo Item0="{8E1170C5-2019-4B31-A984-0993DC2FBFE0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Export table&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Export table&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{6A67308F-A025-4241-AB85-CE2FACBD61E0}">
+										<Image FileName="-84062623" Left="58" Top="172" Right="1078" Bottom="609" />
+										<TypeInfo Item0="{8E1170C5-2019-4B31-A984-0993DC2FBFE0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div[2]//div[4]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMonthlyCpa" Key="{7D1C96B5-62B4-4080-95EB-E5191C347933}">
+										<Image FileName="-856277190" Left="368" Top="653" Right="437" Bottom="665" />
+										<TypeInfo Item0="{8E1170C5-2019-4B31-A984-0993DC2FBFE0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[.=&apos;%MovToTab%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{E0525D2B-9B79-47B6-A747-A87DBD8ED2D6}">
+										<Image FileName="-1213654" Left="47" Top="148" Right="1206" Bottom="639" />
+										<TypeInfo Item0="{AB75866F-2F99-44C4-B653-15DCA9BE2A9A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelValuecellscontainer" Key="{C54E3868-68AD-4348-996F-35537152022F}">
+										<Image FileName="-1126642792" Left="135" Top="250" Right="557" Bottom="488" />
+										<TypeInfo Item0="{8E1170C5-2019-4B31-A984-0993DC2FBFE0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[@name=&apos;valueCellsContainer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;valueCellsContainer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="SnippingTool" Key="{669DD2DA-ED6A-4991-BA87-F9368C022F73}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="SnippingTool" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMicrosoftWindowsTabletSnipperToolbar" Key="{5CF7C624-CBB0-4F26-B4AD-82E43867A330}">
+								<Image FileName="1807458993" Left="0" Top="0" Right="345" Bottom="124" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Microsoft-Windows-Tablet-SnipperToolbar" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Snipping Tool" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="toolbar" Key="{3E324DFB-1210-4D8D-A9E2-5FDE651EA5B2}">
+										<Image FileName="1807458993" Left="8" Top="31" Right="337" Bottom="73" />
+										<TypeInfo Item0="{BC59E9E8-5E20-4515-86A4-2E94BB6DB3A1}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ToolbarWindow32" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{FE5813B6-CDDD-47A6-9B10-57885C7C1C73}">
+			<Child Name="BrowserWindow" Owner="{46F3569D-07FE-4B23-AE61-2382D59C6340}" />
+			<Child Name="pageLogin" Owner="{3D0A1FAF-D083-49BC-AE93-767B556AEACD}">
+				<Child Name="form" Owner="{20733B52-8C86-40FD-8FC7-8FB1C7363B7C}">
+					<Child Name="textboxInputemail3" Owner="{6BB808EF-DD24-45B6-B66B-F7C648680BCD}" />
+					<Child Name="passwordboxInputpassword3" Owner="{C617148A-9572-4F07-8AE6-1586F529AFD3}" />
+					<Child Name="buttonLogIn" Owner="{7C20F03E-CB04-49AF-8ACE-53FDA2C402E4}" />
+				</Child>
+			</Child>
+			<Child Name="pageVitalstatsTibcoSpotfire" Owner="{A7ED1378-4F27-451A-8333-8C78DEF59A9D}">
+				<Child Name="textnodeGoToLibrary" Owner="{16CFA9EF-8B14-4083-9211-2A4338ACD796}" />
+				<Child Name="panelYear" Owner="{B3D9F1F6-6C1F-4D9E-90A4-3CBEA0CDB58F}" />
+				<Child Name="panelExport" Owner="{ECBE0727-3F7B-48D0-8ADE-6BB91E970AA3}" />
+				<Child Name="panelExportTable" Owner="{B1F5A888-F044-4975-A13E-B0BD0FFF4E2D}" />
+				<Child Name="panel" Owner="{6A67308F-A025-4241-AB85-CE2FACBD61E0}" />
+				<Child Name="TabNav" Owner="{7D1C96B5-62B4-4080-95EB-E5191C347933}" />
+				<Child Name="panel2" Owner="{E0525D2B-9B79-47B6-A747-A87DBD8ED2D6}" />
+				<Child Name="panelValuecellscontainer" Owner="{C54E3868-68AD-4348-996F-35537152022F}" />
+			</Child>
+		</Child>
+		<Child Name="SnippingTool" Owner="{669DD2DA-ED6A-4991-BA87-F9368C022F73}">
+			<Child Name="wndMicrosoftWindowsTabletSnipperToolbar" Owner="{5CF7C624-CBB0-4F26-B4AD-82E43867A330}">
+				<Child Name="toolbar" Owner="{3E324DFB-1210-4D8D-A9E2-5FDE651EA5B2}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

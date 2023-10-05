@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{369D10E6-E16E-4DAD-BFD5-77EAFB1A47BB}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="MonthlyCPADBData">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Year">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{9D363D3E-67C5-4712-B444-E21216006676}">
+						<Data Description="Puts values of variables in a new row.">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="FileName" DefVarType="0" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\fpaulson001\Desktop\MonthlyCPAtest.xlsx" Filter="All Excel files|*.xls;*.xlsx|All files|*.*" />
+								<Parameter Name="Sheet" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sheet1" />
+								<Parameter Name="ColumnA" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Month">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnB" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Charges">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnC" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Payments">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnD" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Adjustments">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnE" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Net Change">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnF" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Gross Collection Ratio">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnG" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="MonthlyCPADBData">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Net Collection Ratio">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+												<Value Type="6" Value="MM" Text="MM" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="CSV">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{9D363D3E-67C5-4712-B444-E21216006676}">
+						<Data Description="Puts values of variables in a new row.">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="FileName" DefVarType="0" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\fpaulson001\Desktop\CsvvvtoExcel.xlsx" Filter="All Excel files|*.xls;*.xlsx|All files|*.*" />
+								<Parameter Name="Sheet" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sheet1" />
+								<Parameter Name="ColumnA" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CSV">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Month">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnB" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CSV">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Charges">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnC" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CSV">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Payments">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnD" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CSV">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Adjustments">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnE" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CSV">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Net Change">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnF" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CSV">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Gross Collection Ratio">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="ColumnG" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CSV">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Net Collection Ratio">
+											<Values>
+												<Value Type="6" Value="Year" Text="Year" />
+												<Value Type="6" Value="Month" Text="Month" />
+												<Value Type="6" Value="Charges" Text="Charges" />
+												<Value Type="6" Value="Payments" Text="Payments" />
+												<Value Type="6" Value="Adjustments" Text="Adjustments" />
+												<Value Type="6" Value="Net Change" Text="Net Change" />
+												<Value Type="6" Value="Gross Collection Ratio" Text="Gross Collection Ratio" />
+												<Value Type="6" Value="Net Collection Ratio" Text="Net Collection Ratio" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{2ED75FE4-AD05-4ACF-8520-241758DB1F7A}">
+				<Data Description="Returns True if the file stored in the Files collection under the specified name and another file are absolutely identical. Otherwise, it returns False.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="File1" DefVarType="8" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\fpaulson001\Desktop\CsvvvtoExcel.xlsx" />
+						<Parameter Name="File2" DefVarType="8" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\fpaulson001\Desktop\MonthlyCPAtest.xlsx" />
+						<Parameter Name="HashValue" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="ReportDifference" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="MessageType" DefVarType="12" DefValueType="1" DefValueValue="2" VarType="3" ValueType="1" ValueValue="2" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="MonthlyCPADBData" ColumnName="Charges" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="CSV" ColumnName="Charges" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{BE23FA41-AB53-4D6B-A479-AEB6BAC72960}">
+		<Items>
+			<Variable Name="CSV" Type="DB Table" Local="False">
+				<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+					<ConnectionInfo FileName="..\..\..\..\..\Downloads\VitalStats - Monthly Charges, Payments, and Adjustments (1).csv" UseOLEDB="False" Delimiters="&#9;" UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+				</DefValue>
+			</Variable>
+			<Variable Name="MonthlyCPADBData" Type="DB Table" Local="False">
+				<DefValue Kind="{002E9C22-1E7F-4CEC-AFD0-5C1ACCB5BA1F}">
+					<ConnectionInfo ConnectionString="Provider=MSOLEDBSQL.1;Persist Security Info=False;User ID=fpaulson@guidehouse.com;Initial Catalog=DL_VS_DEMO;Data Source=uszu3sqldpv010.3521267df79e.database.windows.net;Initial File Name=&quot;&quot;;Use Encryption for Data=True;Server SPN=&quot;&quot;;Authentication=ActiveDirectoryPassword;Access Token=&quot;&quot;" Login="fpaulson@guidehouse.com" Psw="A0B0153F2BCA786352921B6D85EBC8E161C988193304AAA0D5A6EBD8" Query="Declare @startdate date=&apos;April 2021&apos;,&#13;&#10;@enddate date=&apos;July 2022&apos;, @filtervalue nvarchar(50)= &apos;%AREL FULLWOOD%&apos;--&apos;FILLER%&apos;&#13;&#10;&#13;&#10;&#13;&#10;--Monthly Table&#13;&#10;Select FORMAT(DOEDate, &apos;yyyy&apos;) AS Year,FORMAT(DOEDate, &apos;MMM&apos;) AS [Month]&#13;&#10;,format(sum(Charges) , &apos;###0&apos;) as Charges ,format(sum(Payments) , &apos;###0&apos;) as Payments,&#13;&#10;format(sum(Adjustments) , &apos;###0&apos;) as Adjustments ,&#13;&#10;format(sum(Charges)-sum(Payments)-sum(Adjustments), &apos;###0&apos;) as [Net Change],format(ROUND( (sum(Payments)) /nullif(sum(Charges),&apos;0&apos;)*100, 1 ), &apos;###0.0&apos;) + &apos; %&apos; as [Gross Collection Ratio],&#13;&#10; format(ROUND( (sum(Payments) /nullif(sum(Charges)-sum(Adjustments),&apos;0&apos;) *100), 1 ), &apos;##0.0&apos;)+ &apos; %&apos; as [Net Collection Ratio],&#13;&#10;MONTH(DOEDATE) MM&#13;&#10;FROM [DL_VS_DEMO].DataLayer.[vwExecutive_Monthly_Report]&#13;&#10;where DOEDate between&#32;&#32;@startdate and @enddate&#13;&#10;--and BillingProvider like @filtervalue&#13;&#10;group by DOEDate &#13;&#10;ORDER BY&#32;&#32;YEAR(DOEDate) ,MONTH(DOEDATE)" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{6943CF21-267B-4D67-96D8-F107F8A247A5}" />
+</Root>

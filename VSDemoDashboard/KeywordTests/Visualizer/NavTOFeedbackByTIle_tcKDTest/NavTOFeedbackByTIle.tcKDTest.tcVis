@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A629EA93-82E3-4B71-B313-BE9DE699987B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44893.3199537037" objectName="Aliases.browser.pageAnalysis.buttonGeneral" objectLeft="901" objectTop="308" objectRight="1161" objectBottom="343" clickPointX="1005" clickPointY="320" imageFileName="tcvi67720278137720.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44893.3199884259" objectName="Aliases.browser.pageAnalysis.linkFeedback" objectLeft="361" objectTop="496" objectRight="616" objectBottom="532" clickPointX="485" clickPointY="515" imageFileName="tcvi67720596837721.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44893.3200810185" objectName="Aliases.browser.pageAnalysis.imageHome" objectLeft="37" objectTop="162" objectRight="87" objectBottom="204" clickPointX="55" clickPointY="192" imageFileName="tcvi67721348437724.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

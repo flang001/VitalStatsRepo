@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="pageVitalstatsTibcoSpotfire" key="{DA009AA5-CBEC-4B72-BAF1-05102570C644}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageVitalstatsTibcoSpotfire" ID="{DA009AA5-CBEC-4B72-BAF1-05102570C644}" FileName="Regions\pageVitalstatsTibcoSpotfire.png" Update="False" />
+		</child>
+		<child name="pageVitalstatsTibcoSpotfire1" key="{7BC401E5-7CE7-4117-A9B2-F3AE1F0CDC47}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageVitalstatsTibcoSpotfire1" ID="{7BC401E5-7CE7-4117-A9B2-F3AE1F0CDC47}" FileName="Regions\pageVitalstatsTibcoSpotfire1.png" Update="False" />
+		</child>
+		<child name="pageVitalstatsTibcoSpotfire2" key="{871B55A8-A506-480D-8076-0A562CF18B51}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageVitalstatsTibcoSpotfire2" ID="{871B55A8-A506-480D-8076-0A562CF18B51}" FileName="Regions\pageVitalstatsTibcoSpotfire2.png" Update="False" />
+		</child>
+		<child name="pageVitalstatsTibcoSpotfire3" key="{B7EBBDCD-0460-40D7-A98E-B38F12038B8E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageVitalstatsTibcoSpotfire3" ID="{B7EBBDCD-0460-40D7-A98E-B38F12038B8E}" FileName="Regions\pageVitalstatsTibcoSpotfire3.png" Update="False" />
+		</child>
+	</children>
+</Root>

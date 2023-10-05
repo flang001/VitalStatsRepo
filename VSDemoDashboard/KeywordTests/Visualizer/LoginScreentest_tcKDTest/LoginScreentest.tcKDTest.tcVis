@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{FBEA30CD-BE0D-49F2-B706-39155B8DF9A5}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44889.2913657407" objectName="Aliases.browser.pageLogin.form.textboxInputemail3" objectLeft="512" objectTop="268" objectRight="722" objectBottom="298" clickPointX="609" clickPointY="284" imageFileName="tcvi329133062116320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44889.291412037" objectName="Aliases.browser.pageLogin.form.textboxInputemail3" objectLeft="512" objectTop="268" objectRight="722" objectBottom="298" clickPointX="-1" clickPointY="-1" imageFileName="tcvi329134625116321.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44889.2914930556" objectName="Aliases.browser.pageLogin.form.passwordboxInputpassword3" objectLeft="512" objectTop="303" objectRight="722" objectBottom="333" clickPointX="583" clickPointY="322" imageFileName="tcvi329143968116323.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44889.2915509259" objectName="Aliases.browser.pageLogin.form.passwordboxInputpassword3" objectLeft="512" objectTop="303" objectRight="722" objectBottom="333" clickPointX="-1" clickPointY="-1" imageFileName="tcvi329147156116324.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44889.2915856481" objectName="Aliases.browser.pageLogin.form.buttonLogIn" objectLeft="542" objectTop="374" objectRight="692" objectBottom="409" clickPointX="601" clickPointY="381" imageFileName="tcvi329152218116325.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

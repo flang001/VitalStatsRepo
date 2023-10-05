@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{FF6E5A84-FB9C-4D64-BFC4-6548F2B66CF4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44957.4748148148" objectName="Aliases.browser.pageVitalstatsTibcoSpotfire.panelValuecellscontainer" objectLeft="135" objectTop="250" objectRight="557" objectBottom="488" clickPointX="357" clickPointY="393" imageFileName="tcvi19678907891600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44957.4748611111" objectName="Aliases.browser.pageVitalstatsTibcoSpotfire.panelExport" objectLeft="396" objectTop="435" objectRight="504" objectBottom="449" clickPointX="404" clickPointY="437" imageFileName="tcvi19679268791601.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44957.4748842593" objectName="Aliases.browser.pageVitalstatsTibcoSpotfire.panelExportTable" objectLeft="575" objectTop="494" objectRight="757" objectBottom="508" clickPointX="617" clickPointY="495" imageFileName="tcvi19679535991602.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

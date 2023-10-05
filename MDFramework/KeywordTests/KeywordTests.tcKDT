@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="CloseEdge" key="{EFEF1C4A-FE4A-4983-BE9E-608BCE501132}" path="..\..\MainDashboard\KeywordTests\CloseEdge.tcKDTest" />
+		<child name="LoginPage" key="{04037C6F-2B6A-4AF4-8BF6-C47207D610F6}" path="..\..\MainDashboard\KeywordTests\LoginPage.tcKDTest" />
+		<child name="MonthlyCPA" key="{97E41507-D785-4AC3-B42C-087EF01DFF15}" path="..\..\MainDashboard\KeywordTests\MonthlyCPA.tcKDTest" />
+		<child name="MonthlyCPANavTo" key="{D5CA7740-CB6A-4CC1-89C9-EF9F3224D66E}" path="..\..\MainDashboard\KeywordTests\MonthlyCPANavTo.tcKDTest" />
+		<child name="MonthlyDataDB" key="{1560C988-250C-459C-9A25-45D9446A9651}" path="..\..\MainDashboard\KeywordTests\MonthlyDataDB.tcKDTest" />
+		<child name="MonthlyDataExport" key="{68B815C7-331B-4615-A537-89C196B21D76}" path="..\..\MainDashboard\KeywordTests\MonthlyDataExport.tcKDTest" />
+		<child name="StartEdge" key="{4C570EE9-0DDB-4902-94FA-1843573741E8}" path="..\..\MainDashboard\KeywordTests\StartEdge.tcKDTest" />
+		<child name="Dummy" key="{3A198A60-10EA-4673-B620-E5621D7CC1DE}" path="Dummy.tcKDTest" />
+	</children>
+</Root>

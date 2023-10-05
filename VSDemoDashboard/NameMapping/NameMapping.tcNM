@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{9C1848A1-85D2-4006-A8A1-73F6276332EE}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{332C03FB-FD6B-4309-871C-F6DBB5BE5418}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{BCE4D168-550E-4FA8-A05E-7B829C1BEA28}">
+								<Image FileName="-1586911645" Left="-8" Top="-8" Right="1288" Bottom="688" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogin" Key="{4C4D3280-D520-4C7A-A09B-EB60AABE8542}">
+								<Image FileName="-1586911645" Left="0" Top="103" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/resources/custom-login/guidehouselogin.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{59F4DACD-18A9-4102-AE5D-E52D78BA7021}">
+										<Image FileName="-1586911645" Left="267" Top="253" Right="967" Bottom="445" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Keep me logged in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputemail3" Key="{95B5B531-67F5-48FC-A217-A49421134EEB}">
+										<Image FileName="-1586911645" Left="512" Top="268" Right="722" Bottom="298" />
+										<TypeInfo Item0="{18B7138C-98D3-4256-B7EB-842069AAF659}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputEmail3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxInputpassword3" Key="{17C1A902-4B83-4B5C-9E66-F8C7BC278E21}">
+										<Image FileName="-1496871633" Left="512" Top="303" Right="722" Bottom="333" />
+										<TypeInfo Item0="{18B7138C-98D3-4256-B7EB-842069AAF659}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputPassword3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{9AB053A3-6AD2-40DF-90FC-1401B64D0C51}">
+										<Image FileName="201284848" Left="542" Top="374" Right="692" Bottom="409" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;LoginButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="GeneralPage" Key="{B245D2BB-9B4D-473B-82AD-992BAE306D8C}">
+								<Image FileName="-1586911645" Left="0" Top="103" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/wp/analysis*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeMainDashboard" Key="{F47EE4A7-C782-4DAC-9CAB-B65C1ED87957}">
+										<Image FileName="-756914955" Left="24" Top="299" Right="365" Bottom="360" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Main Dashboard&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMonthlyCpa" Key="{7E47AEF4-D97C-4561-A162-D1325F7EE6A6}">
+										<Image FileName="-1808907168" Left="410" Top="649" Right="487" Bottom="663" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Monthly CPA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/span[contains(@class, &apos;sfx_text-box_218&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYear" Key="{FBD0B9A4-E795-4184-AD3C-C8193CD1C963}">
+										<Image FileName="-1039368236" Left="24" Top="462" Right="104" Bottom="502" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Year&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//div[contains(@class, &apos;sf-element-table-cell&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelExport" Key="{799C2CD0-800F-4E0D-AF66-4539CC261AEE}">
+										<Image FileName="1660664120" Left="134" Top="536" Right="254" Bottom="551" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Export&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Export&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelExportTable" Key="{08BD88D5-8BBC-40D5-8190-E7CAD8279D51}">
+										<Image FileName="-985018925" Left="333" Top="601" Right="535" Bottom="616" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Export table&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Export table&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHome" Key="{EF9A3B37-77C0-41B1-A327-6982B3028145}">
+										<Image FileName="-712428469" Left="0" Top="103" Right="1233" Bottom="680" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelHome" Key="{EC309A92-3A65-46B1-B5F5-5E622E3F6428}">
+												<Image FileName="-712428469" Left="0" Top="103" Right="1233" Bottom="680" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelHome" Key="{746A3668-8BBF-4A6A-8C4C-1336771E909F}">
+														<Image FileName="-712428469" Left="0" Top="103" Right="1233" Bottom="680" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelHome" Key="{3E719ECC-C2CD-4B96-9DD1-2FAB6B078467}">
+																<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="672" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelHome" Key="{1728C9C4-D645-4ECE-9581-6FC0553408B0}">
+																		<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="143" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value Value="IA_1nVHbR0ui0HqWSmYli-192359e8d7WZWj" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelHome" Key="{0417691B-7411-4CCB-B70E-AACBFD087FFD}">
+																				<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="672" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelDateRangeReflectsMonths" Key="{4134EC7A-9000-4412-AACD-5F0D53214F1E}">
+																						<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelDateRangeReflectsMonths" Key="{5860B208-1F4B-4A59-B9A1-9AFEF84ECDBA}">
+																								<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panelDateRangeReflectsMonths" Key="{AB572F74-7C4D-48FA-AC6B-647A44C48615}">
+																										<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panelDateRangeReflectsMonths" Key="{D860119F-8584-492C-A434-682CFF3342B4}">
+																												<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panelDateRangeReflectsMonths" Key="{4820D5AB-77BB-4C58-9C28-3ADF58BBB2DD}">
+																														<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panelDateRangeReflectsMonths" Key="{F4ECCC27-F2C2-471C-AC0C-3CAB1213619D}">
+																																<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panelDateRangeReflectsMonths" Key="{BA9EA2DA-D4DA-4757-ACDE-51ED8FC9BC72}">
+																																		<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="panelDateRangeReflectsMonths" Key="{E5C84CC2-33FF-472E-9547-6255A8BD659A}">
+																																				<Image FileName="-712428469" Left="8" Top="143" Right="1225" Bottom="640" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Panel" />
+																																					</Property>
+																																				</Properties>
+																																				<Children>
+																																					<Child Name="panelDateRangeReflectsMonths" Key="{163DC50B-3703-4028-9588-0995B32A1B06}">
+																																						<Image FileName="-712428469" Left="20" Top="155" Right="1213" Bottom="628" />
+																																						<Properties>
+																																							<Property Name="ObjectType">
+																																								<Value Value="Panel" />
+																																							</Property>
+																																						</Properties>
+																																						<Children>
+																																							<Child Name="panelDateRangeReflectsMonths" Key="{963D0AF2-1B8A-4B25-9B01-EBECB60CA9A4}">
+																																								<Image FileName="-712428469" Left="20" Top="218" Right="606" Bottom="415" />
+																																								<Properties>
+																																									<Property Name="ObjectType">
+																																										<Value Value="Panel" />
+																																									</Property>
+																																									<Property Name="ObjectIdentifier">
+																																										<Value Value="0" Type="0" />
+																																									</Property>
+																																								</Properties>
+																																								<Children>
+																																									<Child Name="panelMonthlyChargesPaymentsAnd" Key="{57F80CB8-A3C5-4146-ADD4-BDBBFADF2D42}">
+																																										<Image FileName="-712428469" Left="20" Top="218" Right="606" Bottom="241" />
+																																										<Properties>
+																																											<Property Name="ObjectType">
+																																												<Value Value="Panel" />
+																																											</Property>
+																																											<Property Name="contentText">
+																																												<Value Value="Monthly Charges, Payments, and Adjustments" />
+																																											</Property>
+																																										</Properties>
+																																										<Children>
+																																											<Child Name="panel" Key="{1A74DFFE-44BB-400A-9E53-C1B059BB965F}">
+																																												<Image FileName="-712428469" Left="554" Top="222" Right="602" Bottom="237" />
+																																												<Properties>
+																																													<Property Name="ObjectType">
+																																														<Value Value="Panel" />
+																																													</Property>
+																																													<Property Name="ObjectIdentifier">
+																																														<Value Value="1" Type="0" />
+																																													</Property>
+																																												</Properties>
+																																												<Children>
+																																													<Child Name="panelMaximizeVisualization" Key="{8C725354-9704-4D85-8E13-7DACDB78635C}">
+																																														<Image FileName="-712428469" Left="564" Top="223" Right="578" Bottom="236" />
+																																														<Properties>
+																																															<Property Name="ObjectType">
+																																																<Value Value="Panel" />
+																																															</Property>
+																																															<Property Name="title">
+																																																<Value Value="Maximize visualization" />
+																																															</Property>
+																																														</Properties>
+																																														<Children>
+																																															<Child Name="vg" Key="{B6E68E3F-C23D-44F7-8B1D-7CDC143F00A6}">
+																																																<Image FileName="-712428469" Left="564" Top="223" Right="578" Bottom="236" />
+																																																<TypeInfo Item0="{2A370502-C5DD-48DC-B999-78F2A6D16C62}" />
+																																																<Properties>
+																																																	<Property Name="ObjectType">
+																																																		<Value Value="SVG" />
+																																																	</Property>
+																																																</Properties>
+																																															</Child>
+																																														</Children>
+																																													</Child>
+																																													<Child Name="panelRestoreVisualizationLayout" Key="{832F033D-762F-4109-ADE0-8D0E6BC33E92}">
+																																														<Image FileName="-882409248" Left="1169" Top="162" Right="1183" Bottom="175" />
+																																														<Properties>
+																																															<Property Name="ObjectType">
+																																																<Value Value="Panel" />
+																																															</Property>
+																																															<Property Name="title">
+																																																<Value Value="Restore visualization layout" />
+																																															</Property>
+																																														</Properties>
+																																														<Children>
+																																															<Child Name="vg" Key="{EC856FBA-E687-4189-8BA4-775595BD3D11}" ExtendedFind="True">
+																																																<Image FileName="-882409248" Left="1169" Top="162" Right="1183" Bottom="175" />
+																																																<TypeInfo Item0="{2A370502-C5DD-48DC-B999-78F2A6D16C62}" />
+																																																<Properties>
+																																																	<Property Name="ObjectType">
+																																																		<Value Value="SVG" />
+																																																	</Property>
+																																																</Properties>
+																																															</Child>
+																																														</Children>
+																																													</Child>
+																																												</Children>
+																																											</Child>
+																																										</Children>
+																																									</Child>
+																																								</Children>
+																																							</Child>
+																																						</Children>
+																																					</Child>
+																																				</Children>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="vg" Key="{836B6BE0-5F2C-4FAB-8553-08C03E3B6FB4}">
+										<Image FileName="992531103" Left="564" Top="424" Right="578" Bottom="437" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div[2]/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDailyCpa" Key="{CCFC3E12-C42A-41BA-8A13-438EA6207DE8}">
+										<Image FileName="-1039274383" Left="512" Top="649" Right="574" Bottom="663" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Daily CPA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/span[contains(@class, &apos;sfx_text-box_218&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgNofillFillNone" Key="{E50F0949-2FE1-448B-B89A-A5C010B525D2}">
+										<Image FileName="-51016644" Left="523" Top="648" Right="539" Bottom="664" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[2]//div[3]/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEncounterProductivity" Key="{16D737E3-BC4D-46AB-8AD0-C6F8C159E4A8}">
+										<Image FileName="-186221775" Left="555" Top="271" Right="759" Bottom="286" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;%SelectLink%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDailyCpa" Key="{8887DC3D-BBEE-4F1B-A3F3-F837E5EDC748}">
+										<Image FileName="1355308399" Left="605" Top="240" Right="809" Bottom="255" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;%SelectLink%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelWrvusSummary" Key="{C05BC0C6-C819-4C14-86A6-98E13C816CD7}">
+										<Image FileName="896371809" Left="947" Top="293" Right="1231" Bottom="324" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[383]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelWrvusSummary2" Key="{DAC7E151-0A97-490C-A9BE-6BAE53BE159D}">
+										<Image FileName="74683439" Left="987" Top="302" Right="1191" Bottom="317" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;wRVUs Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAR" Key="{4156618A-0B0E-40A8-8247-5B8DB3B3E26F}">
+										<Image FileName="-923102876" Left="630" Top="308" Right="890" Bottom="343" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;A/R&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkArDaysDrillDown" Key="{EFF26F21-17A5-4CCA-89E0-2D43370E0200}">
+										<Image FileName="62832480" Left="361" Top="482" Right="616" Bottom="518" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;AR Days Drill Down&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//tr/td/center/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageHome" Key="{431F96AC-D6F8-4DA1-9492-F58FAEFD2BDD}">
+										<Image FileName="-325381447" Left="37" Top="161" Right="87" Bottom="203" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/img[contains(@class, &apos;sf-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccountReceivableDaysDri" Key="{ADA08DFC-B52C-4A8D-894A-79A75C95A736}">
+										<Image FileName="-1842345932" Left="463" Top="173" Right="755" Bottom="193" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Account Receivable Days Drill Down&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkArSummary" Key="{E8EDD7D5-B801-40AD-A95D-2F7941375BF7}">
+										<Image FileName="-1588179412" Left="361" Top="446" Right="616" Bottom="482" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;AR Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//tr/td/center//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccountReceivableSummary" Key="{721D3948-0984-4102-AE0C-B4AC61224751}">
+										<Image FileName="1003084714" Left="489" Top="174" Right="730" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Account Receivable Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPayorMix" Key="{4057A389-7D38-4A71-B032-7FBB76BBECA4}">
+										<Image FileName="1193938796" Left="361" Top="525" Right="616" Bottom="561" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Payor Mix&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//tr/td/center/div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePayorMix" Key="{9AE49B02-D7E1-4808-9CEB-73D42B3F520A}">
+										<Image FileName="1407683043" Left="569" Top="172" Right="649" Bottom="192" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[contains(text(), &apos;Payor Mix&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGeneral" Key="{3D8DA236-2ADC-4DA4-9E58-272C1EF87C6A}">
+										<Image FileName="606468961" Left="901" Top="308" Right="1161" Bottom="343" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;General&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFeedback" Key="{6E481AA4-334D-464B-82C8-EE51141FBC87}">
+										<Image FileName="133620755" Left="361" Top="496" Right="616" Bottom="532" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Feedback&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Custom&apos;]//div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Custom&apos;]//tr/td/center/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFeedback" Key="{1C19AF7F-6390-488C-9366-30A3A5A075CB}">
+										<Image FileName="155333907" Left="577" Top="174" Right="656" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[contains(text(), &apos;Feedback&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGlossaryUserManual" Key="{D1E9414E-C4D9-44FA-9767-2D56BA73DDCA}">
+										<Image FileName="-997017819" Left="361" Top="452" Right="616" Bottom="488" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Glossary/User Manual&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Custom&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Custom&apos;]//tr/td/center//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGlossaryUserManual" Key="{CBFA17E0-3916-4FC0-B37D-A5D757958128}">
+										<Image FileName="893661416" Left="515" Top="174" Right="703" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[contains(text(), &apos;Glossary / User Manual&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageGetimageAshx" Key="{E7E4F0D3-A376-4ACE-B5DB-BF01A67C1993}">
+										<Image FileName="893661416" Left="35" Top="170" Right="85" Bottom="212" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/img[contains(@src, &apos;GetImage.ashx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/img[contains(@class, &apos;sf-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRevenue" Key="{1FE0AFC8-845D-4913-AF1D-F7BF84CDE0AF}">
+										<Image FileName="-2128820174" Left="630" Top="263" Right="890" Bottom="298" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Revenue&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkChargeLagSummary" Key="{0E2428A1-74E4-4424-8720-ADBB63802DAB}">
+										<Image FileName="1293982233" Left="361" Top="525" Right="616" Bottom="561" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Charge Lag Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//div[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeChargeLagSummary" Key="{0B8CDE65-8FC8-4034-ADF9-ADD1599D10E3}">
+										<Image FileName="526453270" Left="521" Top="174" Right="697" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Charge Lag Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{0DD405FA-ED4B-4F7F-B9E7-DD9E9DE739CC}">
+										<Image FileName="230098319" Left="628" Top="167" Right="772" Bottom="203" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[.=&apos;Grand Total&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{1EB9FCD2-8BEC-44D1-9B4A-A68160A8D962}">
+										<Image FileName="868344511" Left="45" Top="142" Right="74" Bottom="277" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//div[2]//div[contains(@class, &apos;sfpc-left&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDailyCpa" Key="{E4DA4DDC-11FC-4CB8-9219-9BE0829BE896}">
+										<Image FileName="-739741455" Left="361" Top="446" Right="616" Bottom="482" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Daily CPA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//tr/td/center/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDailyCpa2" Key="{A1188F11-4A66-4B03-BBDD-20CD6BBD35FA}">
+										<Image FileName="-1185310838" Left="569" Top="173" Right="650" Bottom="193" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[contains(text(), &apos;Daily CPA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageResetFilters" Key="{2B1FC687-EF19-43AF-BEAC-19E453C063A5}">
+										<Image FileName="984181776" Left="12" Top="164" Right="106" Bottom="191" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Reset Filters&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFilters" Key="{1984F773-F0F5-42F6-8AE1-3D2FC834F17C}">
+										<Image FileName="107080915" Left="257" Top="171" Right="280" Bottom="217" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subscribe_tab&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDistributionAndDailyAverage" Key="{078E7521-9CE2-4359-8C42-040433BD13BA}">
+										<Image FileName="491155721" Left="361" Top="590" Right="616" Bottom="626" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Distribution and Daily Average Analysis&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//div[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDistributionAndDailyAver" Key="{D150A00B-29A7-43DA-BEDF-A0714DE2C61D}">
+										<Image FileName="1417576001" Left="454" Top="172" Right="766" Bottom="192" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Distribution and Daily Average Analysis&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link8f52d57df0df49f9bf9eb0d441e1" Key="{84C67569-8B0A-43E9-8D6F-9EA4DDAADF28}">
+										<Image FileName="1329283125" Left="361" Top="409" Right="616" Bottom="445" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Monthly CPA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//tr/td/center/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMonthlyCpa2" Key="{D398C3C4-F11A-405F-957F-9693A55AC338}">
+										<Image FileName="1056992549" Left="558" Top="174" Right="662" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[contains(text(), &apos;Monthly CPA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNonContractualAdjustment" Key="{7756B938-5A44-4CF3-831A-9D3454513FA6}">
+										<Image FileName="-1123284987" Left="361" Top="482" Right="616" Bottom="518" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Non-Contractual Adjustment Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Revenue&apos;]//tr/td/center/div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNonContractualAdjustment" Key="{740F249F-4631-4EBF-9CF8-85D72B01747C}">
+										<Image FileName="-1171631237" Left="456" Top="173" Right="763" Bottom="193" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Non-Contractual Adjustment Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonProductivity" Key="{13B8DA19-0FA9-490D-9D5D-67A602B36B51}">
+										<Image FileName="845580600" Left="901" Top="263" Right="1161" Bottom="298" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Productivity&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClinicalProductivityReport" Key="{AC8C503F-BA81-477C-B2CF-16DED15776FC}">
+										<Image FileName="2107674580" Left="361" Top="590" Right="616" Bottom="626" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Clinical Productivity Report&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//div[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClinicalProductivityRepo" Key="{C767B1DF-64BB-4C52-8855-7C3AA4DF4028}">
+										<Image FileName="185086818" Left="502" Top="175" Right="717" Bottom="195" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Clinical Productivity Report&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCptCodeVolume" Key="{82FE006C-D1C2-4AA8-915E-ED44EA9C43B9}">
+										<Image FileName="1451010691" Left="361" Top="503" Right="616" Bottom="539" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;CPT Code Volume&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//div[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//tr/td/center/div[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCptCodeVolume" Key="{9F593E90-BF21-4D37-A9F4-EA3A4BA35ED6}">
+										<Image FileName="705419774" Left="535" Top="172" Right="684" Bottom="192" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;CPT Code Volume&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEncounterProductivity" Key="{0D9BF2A1-8520-40A0-A0BA-E051D10C13D5}">
+										<Image FileName="-1070268092" Left="361" Top="373" Right="616" Bottom="409" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Encounter Productivity&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//tr/td/center//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEncounterProductivity" Key="{199C7577-C02E-4EB2-A717-9EFB7895320B}">
+										<Image FileName="478673290" Left="519" Top="173" Right="699" Bottom="193" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Encounter Productivity&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProviderPerformance" Key="{8F830C48-62B6-4857-A243-77F4006EF0AE}">
+										<Image FileName="832076679" Left="361" Top="554" Right="616" Bottom="590" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Provider Performance&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//div[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//tr/td/center/div[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProviderPerformance" Key="{66D7A0E4-8F3E-4005-85AA-3296AD0984A0}">
+										<Image FileName="-1455347397" Left="522" Top="173" Right="697" Bottom="193" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Provider Performance&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWrvusByCmsYear" Key="{2D39BDA5-1DD3-4370-90ED-DD02C688B98B}">
+										<Image FileName="-699916776" Left="361" Top="460" Right="616" Bottom="496" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;wRVUs by CMS Year&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//tr/td/center/div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWrvusByCmsYear" Key="{4613E46F-CC7A-49F4-BF99-300127651935}">
+										<Image FileName="1878803603" Left="525" Top="172" Right="695" Bottom="192" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;wRVUs by CMS Year&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWrvusSummary" Key="{867548C0-3BE9-48B0-A530-8F6A5E0D1040}">
+										<Image FileName="-1610559368" Left="361" Top="417" Right="616" Bottom="453" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;wRVUs Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Productivity&apos;]//tr/td/center/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWrvusSummary" Key="{A059DC29-0762-46C3-86D6-5AB777519A71}">
+										<Image FileName="-1486689454" Left="539" Top="173" Right="681" Bottom="193" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;wRVUs Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEM" Key="{4AF6C64C-1429-4D7E-BBAC-4454583E84AA}">
+										<Image FileName="750539111" Left="359" Top="308" Right="619" Bottom="343" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;E&amp;M&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAnnualEMCurve" Key="{CA5A77FA-9026-4C1C-B1B3-5210A6AF5388}">
+										<Image FileName="1298791601" Left="361" Top="489" Right="616" Bottom="525" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Annual E&amp;M Curve&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//tr/td/center/div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAnnualEMCurve" Key="{A385B5C6-A102-4968-8725-171C885E4513}">
+										<Image FileName="397893542" Left="533" Top="176" Right="686" Bottom="196" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Annual E&amp;M Curve&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEMCodeAnalysis" Key="{7276CD74-6A21-42A0-856E-1BDAE877968F}">
+										<Image FileName="-718064431" Left="361" Top="409" Right="616" Bottom="445" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;E&amp;M Code Analysis&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//tr/td/center//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEvaluationAndManagementCode" Key="{8FFEDF3E-6832-48F9-8EA2-6E1FDDE98501}">
+										<Image FileName="863212209" Left="435" Top="173" Right="783" Bottom="196" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;img-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEMBenchmarking" Key="{B3F6290D-EF45-4DF2-A8ED-DF05E7983E4A}">
+										<Image FileName="-784396623" Left="361" Top="431" Right="616" Bottom="467" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;E&amp;M Benchmarking&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//tr/td/center/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEMBenchmarking" Key="{FA78445B-BE64-45D1-B9E5-CB946EE0BD30}">
+										<Image FileName="-2122739869" Left="530" Top="173" Right="689" Bottom="193" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;E&amp;M Benchmarking&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAnnualEMVarianceByProvider" Key="{41553B2C-7D4A-478A-AFDC-0F7217F0D230}">
+										<Image FileName="-1937091981" Left="361" Top="539" Right="616" Bottom="575" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Annual E&amp;M Variance by Provider&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//tr/td/center/div[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAnnualEMVarianceByProvid" Key="{B4FF895B-EBA6-4037-BD47-D22CA6B34930}">
+										<Image FileName="1256176799" Left="474" Top="174" Right="745" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Annual E&amp;M Variance by Provider&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMonthlyEMVariance" Key="{A145FBB9-73A9-408B-836C-D39A47002B90}">
+										<Image FileName="-1455906200" Left="361" Top="568" Right="616" Bottom="604" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Monthly E&amp;M Variance&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//tr/td/center/div[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMonthlyEMVariance" Key="{E5F1C5FF-6CDA-4619-A1A3-D1B43B0CE802}">
+										<Image FileName="2033357423" Left="519" Top="175" Right="701" Bottom="195" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Monthly E&amp;M Variance&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDefaultopen1" Key="{551259DE-C6FC-4C0D-A033-8D2E6EE0447A}">
+										<Image FileName="760495548" Left="359" Top="263" Right="619" Bottom="298" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#defaultOpen1" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Dashboard&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkExecutiveSummary" Key="{BEA7EF14-709C-49C9-8458-4AB5CEA39773}">
+										<Image FileName="-172081893" Left="361" Top="489" Right="616" Bottom="525" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Executive Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//tr/td/center/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeExecutiveSummary" Key="{23CF2FDE-817A-4DF0-B105-099964A0C25F}">
+										<Image FileName="-690562891" Left="529" Top="172" Right="689" Bottom="192" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Executive Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkKeyPerformanceIndicators" Key="{A827F5E1-4DC2-444D-97A4-66A5B13A14EC}">
+										<Image FileName="1065869603" Left="361" Top="446" Right="616" Bottom="482" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Key Performance Indicators&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//tr/td/center/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKeyPerformanceIndicators" Key="{BCF24F9C-2BD0-4C78-8B38-31E64B96D387}">
+										<Image FileName="1128389821" Left="498" Top="172" Right="720" Bottom="192" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Key Performance Indicators&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProviderComparison" Key="{5A0ACDF8-C2BB-433E-B39F-E1833FEE3446}">
+										<Image FileName="1698958082" Left="361" Top="525" Right="616" Bottom="561" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Provider Comparison&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//tr/td/center/div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProviderComparison" Key="{0F40BCD0-7403-4BDE-AB62-9472CF0304D7}">
+										<Image FileName="-1172451636" Left="525" Top="174" Right="694" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Provider Comparison&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//font/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUser" Key="{E4C57DA8-8525-4FE2-9381-B29AACA98EFD}">
+										<Image FileName="-1092483418" Left="458" Top="103" Right="506" Bottom="135" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;User&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;User&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogOut" Key="{EBFA925D-14C3-4AFE-B3CF-FAE7A87537F1}">
+										<Image FileName="1674170279" Left="498" Top="179" Right="560" Bottom="194" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{8BED6434-03C6-4E17-98D8-939D9DA1793C}">
+										<Image FileName="2115016145" Left="664" Top="432" Right="709" Bottom="464" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;OK&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelArSummary" Key="{666429C2-EB68-42AB-9E7A-84A8B3AF479E}">
+										<Image FileName="765376042" Left="987" Top="426" Right="1191" Bottom="441" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;AR Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{4C3C6524-1C19-475C-99B7-94C8B0827C75}">
+										<Image FileName="1816917510" Left="-58" Top="164" Right="145" Bottom="197" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSelectedFilters" Key="{0E1520B7-D806-41A3-BCD2-326EB680E3BB}">
+										<Image FileName="-1268382779" Left="0" Top="142" Right="252" Bottom="681" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;table-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll59Values" Key="{6C3F1C5B-CAF0-47FD-ADE4-2CC244783D05}">
+										<Image FileName="1114634348" Left="16" Top="351" Right="194" Bottom="366" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;(All) 59 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;(All) 59 values&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll27Values" Key="{F850F0FF-0200-48E6-B758-50CE154CEED6}">
+										<Image FileName="563312433" Left="16" Top="360" Right="194" Bottom="375" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;(All) 27 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;(All) 27 values&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll103Values" Key="{6F9AE768-9A0B-4992-8A28-B7C5F98B6EA7}">
+										<Image FileName="-1408679976" Left="16" Top="417" Right="194" Bottom="432" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;(All) 103 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;(All) 103 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[15]//div[contains(@class, &apos;sf-element-list-box-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll181Values" Key="{19F0927C-44F2-4695-9D70-D43BDE15FFB4}">
+										<Image FileName="1932346172" Left="16" Top="426" Right="194" Bottom="441" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;(All) 181 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;(All) 181 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[21]//div[contains(@class, &apos;sf-element-list-box-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll10Values" Key="{EBF5A07C-E2B0-4096-84C8-6E28936921ED}">
+										<Image FileName="207712878" Left="16" Top="437" Right="194" Bottom="452" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;(All) 10 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;(All) 10 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[26]//div[contains(@class, &apos;sf-element-list-box-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll1Values" Key="{39B591C7-55EB-4A03-86E4-8D8D748298C7}">
+										<Image FileName="-1834955979" Left="16" Top="259" Right="208" Bottom="274" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[28]//div[@title=&apos;(All) 1 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[28]//div[contains(@class, &apos;sf-element-list-box-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll1Values2" Key="{607F2A0F-A829-42B4-B50A-5F742B92196D}">
+										<Image FileName="-1054477424" Left="16" Top="306" Right="208" Bottom="321" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[31]//div[@title=&apos;(All) 1 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[31]//div[contains(@class, &apos;sf-element-list-box-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll1Values3" Key="{053A8C28-815A-411A-B078-BF98137B1747}">
+										<Image FileName="1334977769" Left="16" Top="499" Right="208" Bottom="514" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[33]//div[@title=&apos;(All) 1 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[33]//div[contains(@class, &apos;sf-element-list-box-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCustom" Key="{882744AF-700E-4146-A0BD-D01034E85849}">
+										<Image FileName="893211606" Left="915" Top="237" Right="1176" Bottom="272" />
+										<TypeInfo Item0="{756DB4B5-A10B-44B0-A2C7-8F14BB9BBE72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Custom&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textarea7cba4d1fe56f4f39901e6992" Key="{96E9976D-0875-4C43-AEBE-4407A0D1497B}">
+										<Image FileName="975675770" Left="126" Top="334" Right="928" Bottom="636" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;sf-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHome2" Key="{18B638E4-7583-4CAC-9DC7-00041817AA05}">
+										<Image FileName="-1184184049" Left="945" Top="257" Right="1081" Bottom="275" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//div[@title=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sf-element-text-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{6D25891A-0729-4325-8987-D4E231EF41C9}">
+										<Image FileName="-579646742" Left="1198" Top="236" Right="1208" Bottom="554" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[2]/div[contains(@class, &apos;ScrollbarHandle&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSubmit" Key="{B83DB205-9B89-4CF4-9ACF-12B8D340CE55}">
+										<Image FileName="2092487433" Left="129" Top="577" Right="925" Bottom="614" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeThanksForYourFeedback" Key="{7ACCAA65-0BCD-4094-A8B9-D082360A2AFB}">
+										<Image FileName="1352930441" Left="442" Top="265" Right="611" Bottom="282" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Thanks for your feedback&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{8FB47C9B-D029-4F59-88C9-C929FD4BECF8}">
+										<Image FileName="-1525525878" Left="1074" Top="257" Right="1093" Bottom="275" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelKeyPerformanceIndicators" Key="{A2DF3092-1AE8-4744-BCC1-D7D5A131573E}">
+										<Image FileName="-228342738" Left="945" Top="322" Right="1146" Bottom="342" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Key Performance Indicators&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageClickHereToGiveYourFeedback" Key="{C739E7B5-39AA-4C5C-8EF4-D254A985BFC6}">
+										<Image FileName="1701134875" Left="1150" Top="162" Right="1200" Bottom="210" />
+										<TypeInfo Item0="{53C6F852-DD41-436D-B9F9-C6F79F48924B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Click here to give your Feedback&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//tr/td/img[contains(@class, &apos;sf-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//tr/td/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{850F9548-0CAB-4130-ABAF-AF713C227A42}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{8FB88CB6-570C-45EC-A70A-8AA02C1BD641}">
+								<Image FileName="1672520291" Left="0" Top="0" Right="1280" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{BB6CA49E-67A6-4F77-ADAD-E698FA94E2FA}">
+										<Image FileName="1672520291" Left="142" Top="0" Right="1091" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{6A5FCDEE-BDC6-448F-BC13-77476EDF638B}">
+												<Image FileName="1672520291" Left="144" Top="0" Right="1091" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{014F2511-6212-432D-93D8-2A0FEA0CD66D}">
+														<Image FileName="1672520291" Left="144" Top="0" Right="1091" Bottom="40" />
+														<TypeInfo Item0="{2D3F313B-EBC6-47FA-B071-F648D90C230A}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{332C03FB-FD6B-4309-871C-F6DBB5BE5418}">
+			<Child Name="BrowserWindow" Owner="{BCE4D168-550E-4FA8-A05E-7B829C1BEA28}" />
+			<Child Name="pageLogin" Owner="{4C4D3280-D520-4C7A-A09B-EB60AABE8542}">
+				<Child Name="form" Owner="{59F4DACD-18A9-4102-AE5D-E52D78BA7021}">
+					<Child Name="textboxInputemail3" Owner="{95B5B531-67F5-48FC-A217-A49421134EEB}" />
+					<Child Name="passwordboxInputpassword3" Owner="{17C1A902-4B83-4B5C-9E66-F8C7BC278E21}" />
+					<Child Name="buttonLogIn" Owner="{9AB053A3-6AD2-40DF-90FC-1401B64D0C51}" />
+				</Child>
+			</Child>
+			<Child Name="pageAnalysis" Owner="{B245D2BB-9B4D-473B-82AD-992BAE306D8C}">
+				<Child Name="textnodeMainDashboard" Owner="{F47EE4A7-C782-4DAC-9CAB-B65C1ED87957}" />
+				<Child Name="textnodeMonthlyCpa" Owner="{7E47AEF4-D97C-4561-A162-D1325F7EE6A6}" />
+				<Child Name="panelYear" Owner="{FBD0B9A4-E795-4184-AD3C-C8193CD1C963}" />
+				<Child Name="panelExport" Owner="{799C2CD0-800F-4E0D-AF66-4539CC261AEE}" />
+				<Child Name="panelExportTable" Owner="{08BD88D5-8BBC-40D5-8190-E7CAD8279D51}" />
+				<Child Name="vg" Owner="{B6E68E3F-C23D-44F7-8B1D-7CDC143F00A6}" />
+				<Child Name="vg2" Owner="{EC856FBA-E687-4189-8BA4-775595BD3D11}" />
+				<Child Name="vg3" Owner="{836B6BE0-5F2C-4FAB-8553-08C03E3B6FB4}" />
+				<Child Name="textnodeDailyCpa" Owner="{CCFC3E12-C42A-41BA-8A13-438EA6207DE8}" />
+				<Child Name="vgNofillFillNone" Owner="{E50F0949-2FE1-448B-B89A-A5C010B525D2}" />
+				<Child Name="panelEncounterProductivity" Owner="{16D737E3-BC4D-46AB-8AD0-C6F8C159E4A8}" />
+				<Child Name="panelDailyCpa" Owner="{8887DC3D-BBEE-4F1B-A3F3-F837E5EDC748}" />
+				<Child Name="panelWrvusSummary" Owner="{C05BC0C6-C819-4C14-86A6-98E13C816CD7}" />
+				<Child Name="panelWrvusSummary2" Owner="{DAC7E151-0A97-490C-A9BE-6BAE53BE159D}" />
+				<Child Name="buttonAR" Owner="{4156618A-0B0E-40A8-8247-5B8DB3B3E26F}" />
+				<Child Name="linkArDaysDrillDown" Owner="{EFF26F21-17A5-4CCA-89E0-2D43370E0200}" />
+				<Child Name="imageHome" Owner="{431F96AC-D6F8-4DA1-9492-F58FAEFD2BDD}" />
+				<Child Name="textnodeAccountReceivableDaysDri" Owner="{ADA08DFC-B52C-4A8D-894A-79A75C95A736}" />
+				<Child Name="linkArSummary" Owner="{E8EDD7D5-B801-40AD-A95D-2F7941375BF7}" />
+				<Child Name="textnodeAccountReceivableSummary" Owner="{721D3948-0984-4102-AE0C-B4AC61224751}" />
+				<Child Name="linkPayorMix" Owner="{4057A389-7D38-4A71-B032-7FBB76BBECA4}" />
+				<Child Name="textnodePayorMix" Owner="{9AE49B02-D7E1-4808-9CEB-73D42B3F520A}" />
+				<Child Name="buttonGeneral" Owner="{3D8DA236-2ADC-4DA4-9E58-272C1EF87C6A}" />
+				<Child Name="linkFeedback" Owner="{6E481AA4-334D-464B-82C8-EE51141FBC87}" />
+				<Child Name="textnodeFeedback" Owner="{1C19AF7F-6390-488C-9366-30A3A5A075CB}" />
+				<Child Name="linkGlossaryUserManual" Owner="{D1E9414E-C4D9-44FA-9767-2D56BA73DDCA}" />
+				<Child Name="textnodeGlossaryUserManual" Owner="{CBFA17E0-3916-4FC0-B37D-A5D757958128}" />
+				<Child Name="imageGetimageAshx" Owner="{E7E4F0D3-A376-4ACE-B5DB-BF01A67C1993}" />
+				<Child Name="buttonRevenue" Owner="{1FE0AFC8-845D-4913-AF1D-F7BF84CDE0AF}" />
+				<Child Name="linkChargeLagSummary" Owner="{0E2428A1-74E4-4424-8720-ADBB63802DAB}" />
+				<Child Name="textnodeChargeLagSummary" Owner="{0B8CDE65-8FC8-4034-ADF9-ADD1599D10E3}" />
+				<Child Name="cell" Owner="{0DD405FA-ED4B-4F7F-B9E7-DD9E9DE739CC}" />
+				<Child Name="panel" Owner="{1EB9FCD2-8BEC-44D1-9B4A-A68160A8D962}" />
+				<Child Name="linkDailyCpa" Owner="{E4DA4DDC-11FC-4CB8-9219-9BE0829BE896}" />
+				<Child Name="textnodeDailyCpa2" Owner="{A1188F11-4A66-4B03-BBDD-20CD6BBD35FA}" />
+				<Child Name="imageResetFilters" Owner="{2B1FC687-EF19-43AF-BEAC-19E453C063A5}" />
+				<Child Name="textnodeFilters" Owner="{1984F773-F0F5-42F6-8AE1-3D2FC834F17C}" />
+				<Child Name="linkDistributionAndDailyAverage" Owner="{078E7521-9CE2-4359-8C42-040433BD13BA}" />
+				<Child Name="textnodeDistributionAndDailyAver" Owner="{D150A00B-29A7-43DA-BEDF-A0714DE2C61D}" />
+				<Child Name="link8f52d57df0df49f9bf9eb0d441e1" Owner="{84C67569-8B0A-43E9-8D6F-9EA4DDAADF28}" />
+				<Child Name="textnodeMonthlyCpa2" Owner="{D398C3C4-F11A-405F-957F-9693A55AC338}" />
+				<Child Name="linkNonContractualAdjustment" Owner="{7756B938-5A44-4CF3-831A-9D3454513FA6}" />
+				<Child Name="textnodeNonContractualAdjustment" Owner="{740F249F-4631-4EBF-9CF8-85D72B01747C}" />
+				<Child Name="buttonProductivity" Owner="{13B8DA19-0FA9-490D-9D5D-67A602B36B51}" />
+				<Child Name="linkClinicalProductivityReport" Owner="{AC8C503F-BA81-477C-B2CF-16DED15776FC}" />
+				<Child Name="textnodeClinicalProductivityRepo" Owner="{C767B1DF-64BB-4C52-8855-7C3AA4DF4028}" />
+				<Child Name="linkCptCodeVolume" Owner="{82FE006C-D1C2-4AA8-915E-ED44EA9C43B9}" />
+				<Child Name="textnodeCptCodeVolume" Owner="{9F593E90-BF21-4D37-A9F4-EA3A4BA35ED6}" />
+				<Child Name="linkEncounterProductivity" Owner="{0D9BF2A1-8520-40A0-A0BA-E051D10C13D5}" />
+				<Child Name="textnodeEncounterProductivity" Owner="{199C7577-C02E-4EB2-A717-9EFB7895320B}" />
+				<Child Name="linkProviderPerformance" Owner="{8F830C48-62B6-4857-A243-77F4006EF0AE}" />
+				<Child Name="textnodeProviderPerformance" Owner="{66D7A0E4-8F3E-4005-85AA-3296AD0984A0}" />
+				<Child Name="linkWrvusByCmsYear" Owner="{2D39BDA5-1DD3-4370-90ED-DD02C688B98B}" />
+				<Child Name="textnodeWrvusByCmsYear" Owner="{4613E46F-CC7A-49F4-BF99-300127651935}" />
+				<Child Name="linkWrvusSummary" Owner="{867548C0-3BE9-48B0-A530-8F6A5E0D1040}" />
+				<Child Name="textnodeWrvusSummary" Owner="{A059DC29-0762-46C3-86D6-5AB777519A71}" />
+				<Child Name="buttonEM" Owner="{4AF6C64C-1429-4D7E-BBAC-4454583E84AA}" />
+				<Child Name="linkAnnualEMCurve" Owner="{CA5A77FA-9026-4C1C-B1B3-5210A6AF5388}" />
+				<Child Name="textnodeAnnualEMCurve" Owner="{A385B5C6-A102-4968-8725-171C885E4513}" />
+				<Child Name="linkEMCodeAnalysis" Owner="{7276CD74-6A21-42A0-856E-1BDAE877968F}" />
+				<Child Name="panelEvaluationAndManagementCode" Owner="{8FFEDF3E-6832-48F9-8EA2-6E1FDDE98501}" />
+				<Child Name="linkEMBenchmarking" Owner="{B3F6290D-EF45-4DF2-A8ED-DF05E7983E4A}" />
+				<Child Name="textnodeEMBenchmarking" Owner="{FA78445B-BE64-45D1-B9E5-CB946EE0BD30}" />
+				<Child Name="linkAnnualEMVarianceByProvider" Owner="{41553B2C-7D4A-478A-AFDC-0F7217F0D230}" />
+				<Child Name="textnodeAnnualEMVarianceByProvid" Owner="{B4FF895B-EBA6-4037-BD47-D22CA6B34930}" />
+				<Child Name="linkMonthlyEMVariance" Owner="{A145FBB9-73A9-408B-836C-D39A47002B90}" />
+				<Child Name="textnodeMonthlyEMVariance" Owner="{E5F1C5FF-6CDA-4619-A1A3-D1B43B0CE802}" />
+				<Child Name="buttonDefaultopen1" Owner="{551259DE-C6FC-4C0D-A033-8D2E6EE0447A}" />
+				<Child Name="linkExecutiveSummary" Owner="{BEA7EF14-709C-49C9-8458-4AB5CEA39773}" />
+				<Child Name="textnodeExecutiveSummary" Owner="{23CF2FDE-817A-4DF0-B105-099964A0C25F}" />
+				<Child Name="linkKeyPerformanceIndicators" Owner="{A827F5E1-4DC2-444D-97A4-66A5B13A14EC}" />
+				<Child Name="textnodeKeyPerformanceIndicators" Owner="{BCF24F9C-2BD0-4C78-8B38-31E64B96D387}" />
+				<Child Name="linkProviderComparison" Owner="{5A0ACDF8-C2BB-433E-B39F-E1833FEE3446}" />
+				<Child Name="textnodeProviderComparison" Owner="{0F40BCD0-7403-4BDE-AB62-9472CF0304D7}" />
+				<Child Name="panelUser" Owner="{E4C57DA8-8525-4FE2-9381-B29AACA98EFD}" />
+				<Child Name="panelLogOut" Owner="{EBFA925D-14C3-4AFE-B3CF-FAE7A87537F1}" />
+				<Child Name="buttonOk" Owner="{8BED6434-03C6-4E17-98D8-939D9DA1793C}" />
+				<Child Name="panelArSummary" Owner="{666429C2-EB68-42AB-9E7A-84A8B3AF479E}" />
+				<Child Name="textnode" Owner="{4C3C6524-1C19-475C-99B7-94C8B0827C75}" />
+				<Child Name="panelSelectedFilters" Owner="{0E1520B7-D806-41A3-BCD2-326EB680E3BB}" />
+				<Child Name="panelAll59Values" Owner="{6C3F1C5B-CAF0-47FD-ADE4-2CC244783D05}" />
+				<Child Name="panelAll27Values" Owner="{F850F0FF-0200-48E6-B758-50CE154CEED6}" />
+				<Child Name="panelAll103Values" Owner="{6F9AE768-9A0B-4992-8A28-B7C5F98B6EA7}" />
+				<Child Name="panelAll181Values" Owner="{19F0927C-44F2-4695-9D70-D43BDE15FFB4}" />
+				<Child Name="panelAll10Values" Owner="{EBF5A07C-E2B0-4096-84C8-6E28936921ED}" />
+				<Child Name="panelAll1Values" Owner="{39B591C7-55EB-4A03-86E4-8D8D748298C7}" />
+				<Child Name="panelAll1Values2" Owner="{607F2A0F-A829-42B4-B50A-5F742B92196D}" />
+				<Child Name="panelAll1Values3" Owner="{053A8C28-815A-411A-B078-BF98137B1747}" />
+				<Child Name="buttonCustom" Owner="{882744AF-700E-4146-A0BD-D01034E85849}" />
+				<Child Name="textarea7cba4d1fe56f4f39901e6992" Owner="{96E9976D-0875-4C43-AEBE-4407A0D1497B}" />
+				<Child Name="panelHome2" Owner="{18B638E4-7583-4CAC-9DC7-00041817AA05}" />
+				<Child Name="panel2" Owner="{6D25891A-0729-4325-8987-D4E231EF41C9}" />
+				<Child Name="linkSubmit" Owner="{B83DB205-9B89-4CF4-9ACF-12B8D340CE55}" />
+				<Child Name="textnodeThanksForYourFeedback" Owner="{7ACCAA65-0BCD-4094-A8B9-D082360A2AFB}" />
+				<Child Name="vg22" Owner="{8FB47C9B-D029-4F59-88C9-C929FD4BECF8}" />
+				<Child Name="panelKeyPerformanceIndicators" Owner="{A2DF3092-1AE8-4744-BCC1-D7D5A131573E}" />
+				<Child Name="imageClickHereToGiveYourFeedback" Owner="{C739E7B5-39AA-4C5C-8EF4-D254A985BFC6}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{850F9548-0CAB-4130-ABAF-AF713C227A42}">
+			<Child Name="wndShell_TrayWnd" Owner="{8FB88CB6-570C-45EC-A70A-8AA02C1BD641}">
+				<Child Name="ReBarWindow32" Owner="{BB6CA49E-67A6-4F77-ADAD-E698FA94E2FA}">
+					<Child Name="MSTaskSwWClass" Owner="{6A5FCDEE-BDC6-448F-BC13-77476EDF638B}">
+						<Child Name="MSTaskListWClass" Owner="{014F2511-6212-432D-93D8-2A0FEA0CD66D}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

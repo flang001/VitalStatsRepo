@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{E9E27728-8426-44AB-949D-6E1F4F207597}">
+	<children>
+		<child name="MainDashboard" key="{DA17E593-7C05-4DBA-A280-C96A57F70390}" path="MainDashboard\MainDashboard.mds" />
+		<child name="MDFramework" key="{3C103C7B-64DD-42A6-A1C7-D4C793E8453F}" path="MDFramework\MDFramework.mds" />
+		<child name="VSDemoDashboard" key="{42075D0A-086E-4291-823C-D3528E07B7E3}" path="VSDemoDashboard\VSDemoDashboard.mds" />
+	</children>
+	<testItems key="{B31D804F-4ADC-40CC-B197-99CDBA9F35E2}">
+		<children>
+			<testItem key="{DA17E593-7C05-4DBA-A280-C96A57F70390}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3C103C7B-64DD-42A6-A1C7-D4C793E8453F}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{42075D0A-086E-4291-823C-D3528E07B7E3}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0EB65A4E-E97C-4566-B0C3-058C0B2684E0}" />
+	<analysis key="{034B2B00-8092-478F-9C72-E4B93D4212A5}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

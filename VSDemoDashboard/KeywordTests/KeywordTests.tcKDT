@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Pages">
+			<folder name="LoginScreen">
+				<child name="LoginScreentest" key="{FBEA30CD-BE0D-49F2-B706-39155B8DF9A5}" path="LoginScreentest.tcKDTest" />
+			</folder>
+			<folder name="MonthlyCPA">
+				<child name="NavToMonthlyCPA" key="{4A65BC7C-479E-4C0E-8676-591CA515026B}" path="NavToMonthlyCPA.tcKDTest" />
+				<child name="MonthlyCPAtable" key="{7BFE8F56-8735-49A3-A8A3-867C58ED4C6E}" path="MonthlyCPAtable.tcKDTest" />
+				<child name="MonthlyCPADBComparison" key="{FC19B804-E71F-4EBD-856C-9C2083AA4E7E}" path="MonthlyCPADBComparison.tcKDTest" />
+				<child name="MonthlyGraph" key="{DBD2D9E1-C5F2-42CD-9C49-F86B708D042E}" path="MonthlyGraph.tcKDTest" />
+			</folder>
+			<folder name="DailyCPA">
+				<child name="NavToDailyCPA" key="{A22B6851-A884-4DF7-9C65-543409BB45C9}" path="NavToDailyCPA.tcKDTest" />
+				<child name="DailyCPAFeedbackvald" key="{34F91DC4-69DD-46F0-A7A0-07A909140C44}" path="DailyCPAFeedbackvald.tcKDTest" />
+			</folder>
+			<folder name="EncounterProductivity">
+				<child name="NavToEncounterProductivity" key="{CE667317-51CE-43CC-B85D-3E81A9DF66AB}" path="NavToEncounterProductivity.tcKDTest" />
+				<child name="EPFeedbackVald" key="{A2A16264-94B9-4BEB-876E-6215B91C2E03}" path="EPFeedbackVald.tcKDTest" />
+			</folder>
+			<folder name="wRVUsSummary">
+				<child name="NavTowRVUsSummary" key="{0D3A4973-2FAA-41B9-8CE7-4BE1F0E00181}" path="NavTowRVUsSummary.tcKDTest" />
+			</folder>
+			<folder name="TabNavByHomeTile">
+				<folder name="Dashboard">
+					<child name="NavToKPIByTile" key="{3F3C4955-087B-4B8A-8200-7E8A497555DE}" path="NavToKPIByTile.tcKDTest" />
+					<child name="NavToExSumByTile" key="{9D1BEFB5-9554-4D37-81B3-824982C4D885}" path="NavToExSumByTile.tcKDTest" />
+					<child name="NavToProComByTile" key="{501547B9-DEC6-4E99-B5E3-5C16B1A50D9D}" path="NavToProComByTile.tcKDTest" />
+				</folder>
+				<folder name="Revenue">
+					<child name="NavToMonthlyCPAByTile" key="{D931B099-CDF3-45F5-9133-CBFF9F105113}" path="NavToMonthlyCPAByTile.tcKDTest" />
+					<child name="NavToDailyCPAByTile" key="{D8B28782-946F-45C1-9C9B-5AD1F67AC21C}" path="NavToDailyCPAByTile.tcKDTest" />
+					<child name="NavToNonConASByTile" key="{1026A4C9-EDBD-49F1-B76B-8DF21E6C6F45}" path="NavToNonConASByTile.tcKDTest" />
+					<child name="NavToChargeLagSumByTile" key="{7594E33F-ED70-43AB-84C6-8F7CD6BB61B8}" path="NavToChargeLagSumByTile.tcKDTest" />
+					<child name="NavTODisDailyAAByTile" key="{FBCE21AB-5E48-40D6-80F3-3438251B2E88}" path="NavTODisDailyAAByTile.tcKDTest" />
+				</folder>
+				<folder name="Productivity">
+					<child name="NavToEnProdByTIle" key="{A7D55569-4398-486D-8BA8-6E9BC03F2FA3}" path="NavToEnProdByTIle.tcKDTest" />
+					<child name="NavTowRVUsSummByTile" key="{6E97C995-CF5E-41FF-86E7-F4A59951074D}" path="NavTowRVUsSummByTile.tcKDTest" />
+					<child name="NavTowRVUbyCMSByTIle" key="{AC88FCA9-B25C-42E7-B254-C3DAC1C3B60A}" path="NavTowRVUbyCMSByTIle.tcKDTest" />
+					<child name="NavToCPTCodeVolByTile" key="{03B9DC2D-66A3-4247-A2EF-A55591201603}" path="NavToCPTCodeVolByTile.tcKDTest" />
+					<child name="NavToProviderPerByTile" key="{151362F5-083B-48D5-B67D-124B26B426C3}" path="NavToProviderPerByTile.tcKDTest" />
+					<child name="NavToCPRByTile" key="{5F14B305-6D94-4463-AA48-AABA1973A073}" path="NavToCPRByTile.tcKDTest" />
+				</folder>
+				<folder name="E&amp;M">
+					<child name="NavToE_MCodeAnalByTile" key="{97366929-B7CC-4E8D-950F-D2ABD36CC08E}" path="NavToE_MCodeAnalByTile.tcKDTest" />
+					<child name="NavToEMBenchByTile" key="{87752D80-6060-4FE6-A90A-C718D487C75A}" path="NavToEMBenchByTile.tcKDTest" />
+					<child name="NavToAnnualEMByTIle" key="{805882C8-F7D6-4842-9F59-069E5862C4F4}" path="NavToAnnualEMByTIle.tcKDTest" />
+					<child name="NavToAnEMVarianceByTile" key="{A66446D7-F0F8-4EAB-BE5E-359B7C744AFB}" path="NavToAnEMVarianceByTile.tcKDTest" />
+					<child name="NavToMonthlyEM" key="{0930FECA-CA99-499A-8C96-B3F6C851822D}" path="NavToMonthlyEM.tcKDTest" />
+				</folder>
+				<folder name="A/R">
+					<child name="NavToARSumByTile" key="{A181D517-9105-4608-A16C-F5D2517DFDCB}" path="NavToARSumByTile.tcKDTest" />
+					<child name="NavToARDaysDDByTIle" key="{78A35E1E-52B7-44BC-862F-487A2ABAD18E}" path="NavToARDaysDDByTIle.tcKDTest" />
+					<child name="NavToPayermixByTile" key="{2B0DF756-F51C-4456-BA98-BF9F17F6B92D}" path="NavToPayermixByTile.tcKDTest" />
+				</folder>
+				<folder name="General">
+					<child name="NavToGlossary_UMByTile" key="{6EF4B534-D190-4238-9B4F-7C03129F2356}" path="NavToGlossary_UMByTile.tcKDTest" />
+					<child name="NavTOFeedbackByTIle" key="{A629EA93-82E3-4B71-B313-BE9DE699987B}" path="NavTOFeedbackByTIle.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="BasePage">
+				<child name="BasePage" key="{59595693-380D-4334-98B6-F0BECB1241E3}" path="BasePage.tcKDTest" />
+			</folder>
+			<folder name="FilterValidation">
+				<child name="FilterValidation" key="{FEFBC104-06D0-4514-8AC6-BAA1FFFE421D}" path="FilterValidation.tcKDTest" />
+			</folder>
+			<folder name="FeedbackTab">
+				<child name="SubmittingFeedback" key="{EAA55BE9-70C7-4816-A74C-D9C5DC9BEC24}" path="SubmittingFeedback.tcKDTest" />
+				<child name="NavToFeedback" key="{A1EA2F9F-F78F-4D08-8EBB-0AA4A5FDF551}" path="NavToFeedback.tcKDTest" />
+				<child name="SubmittingFeedback2" key="{8C07EC24-86A5-482B-BF8D-3508E0C2E6D3}" path="SubmittingFeedback2.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="UtilBrowser">
+			<child name="StartEdge" key="{40C8DED2-D96C-44A9-AA0A-9F08A914A8A4}" path="StartEdge.tcKDTest" />
+			<child name="CloseEdge" key="{554D10DB-52A9-41D7-BCDC-C5DD12FFB234}" path="CloseEdge.tcKDTest" />
+		</folder>
+		<folder name="Components">
+			<child name="MainNavLink" key="{32CE5AC6-F0E1-428E-8DA0-7E0BE72321D8}" path="MainNavLink.tcKDTest" />
+		</folder>
+		<folder name="Test">
+			<folder name="NavTolinkUsingHomeTile">
+				<child name="Dashboard" key="{6E6890C4-D95F-4FB0-A12B-EC9EB8401E04}" path="Dashboard.tcKDTest" />
+				<child name="Revenue" key="{249A27AE-F1A2-40E3-BB82-4AB1DA31780A}" path="Revenue.tcKDTest" />
+				<child name="Productivity" key="{4DA16E23-96F7-47B9-9322-D232CC12DCF7}" path="Productivity.tcKDTest" />
+				<child name="EM" key="{608508C8-1D17-464D-8890-0D98182AEEB4}" path="EM.tcKDTest" />
+				<child name="AR" key="{50443848-CA1B-49F6-AB55-6481663FBD7A}" path="AR.tcKDTest" />
+				<child name="General" key="{35EA5928-D165-426A-9B51-01EF59270091}" path="General.tcKDTest" />
+			</folder>
+			<folder name="TabNavUsingHomeTile">
+				<child name="TabFolderTile" key="{4C8561B9-CDD2-4845-929B-BCA0D30DB677}" path="TabFolderTile.tcKDTest" />
+				<child name="TabClick" key="{6D5D34BE-7AB6-4787-AA29-60B51D54E4D0}" path="TabClick.tcKDTest" />
+				<child name="BackToHome" key="{B46AFA7F-34E3-4535-A922-82688B76D0DB}" path="BackToHome.tcKDTest" />
+			</folder>
+			<child name="TestMonthlyCPA" key="{B3F84B33-098C-4647-8899-FD7FC0D62427}" path="TestMonthlyCPA.tcKDTest" />
+		</folder>
+	</children>
+</Root>

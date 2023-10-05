@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{05AF2472-57E8-4C20-913C-08E93F2CB8CE}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{69AC362B-3E6C-4AAD-BF46-8B0C6D577D71}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{CE9752AA-7150-4A91-BC8A-E09480148735}">
+								<Image FileName="1404579755" Left="-8" Top="-8" Right="1288" Bottom="688" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePesTibcoSpotfire" Key="{3D84C84A-8D5B-413C-8390-4FAB8D5EE260}">
+								<Image FileName="1404579755" Left="0" Top="103" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/wp/analysis*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{33BF96B6-C850-4B56-8497-2EE190CA7DF8}">
+										<Image FileName="1404579755" Left="43" Top="180" Right="1061" Bottom="601" />
+										<TypeInfo Item0="{5B766BFA-DCB1-4103-97C4-8DD473224F2C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div[2]//div[4]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{69AC362B-3E6C-4AAD-BF46-8B0C6D577D71}">
+			<Child Name="BrowserWindow" Owner="{CE9752AA-7150-4A91-BC8A-E09480148735}" />
+			<Child Name="pagePesTibcoSpotfire" Owner="{3D84C84A-8D5B-413C-8390-4FAB8D5EE260}">
+				<Child Name="panel" Owner="{33BF96B6-C850-4B56-8497-2EE190CA7DF8}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

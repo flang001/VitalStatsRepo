@@ -1,0 +1,10 @@
+﻿def sample():
+  Log.Message("Hai")
+  
+  
+  
+def StringReplaceDemo(str):
+  str = aqString.Replace(str, ",", "")
+  str = aqString.Replace(str, "$", "")
+  return str
+  

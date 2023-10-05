@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Test">
+			<child name="MonthlyCPA" key="{383ABFFC-CBC2-45C2-9020-1429BEBCCF82}" path="MonthlyCPA.tcKDTest" />
+			<child name="Daily_CPA" key="{FF6E5A84-FB9C-4D64-BFC4-6548F2B66CF4}" path="Daily_CPA.tcKDTest" />
+		</folder>
+		<folder name="Components">
+			<child name="NavToTab" key="{5B62B3BB-428D-4B59-BC31-E64A098D8C19}" path="NavToTab.tcKDTest" />
+		</folder>
+		<folder name="Pages">
+			<folder name="LoginScreen">
+				<child name="LoginPage" key="{34AFFE55-73C3-4914-B22E-4A2902208F52}" path="LoginPage.tcKDTest" />
+			</folder>
+			<folder name="MonthlyCPATab">
+				<child name="MonthlyDataExport" key="{D91FC208-4E65-459B-83CE-10732C53980B}" path="MonthlyDataExport.tcKDTest" />
+				<child name="MonthlyDataDB" key="{05B6F672-8B53-4721-BA95-54EB35F50B26}" path="MonthlyDataDB.tcKDTest" />
+			</folder>
+			<folder name="DailyCPA" />
+		</folder>
+		<folder name="UtilBrowser">
+			<child name="CloseEdge" key="{38401E28-2EE9-4F07-9347-3EEBB3A51CB2}" path="CloseEdge.tcKDTest" />
+			<child name="StartEdge" key="{3C5148AA-C09D-41DE-B738-476E880F3614}" path="StartEdge.tcKDTest" />
+		</folder>
+	</children>
+</Root>

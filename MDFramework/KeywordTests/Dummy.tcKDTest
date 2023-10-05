@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{ED476BB2-4ACF-413F-9C90-61DB6D6A549F}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{07CEF44D-221B-4839-A772-581E17D39E43}">
+				<Data Description="Runs the specified audits against %p1 and compares the resulting scores with the specified threshold values.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Url" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/2.Product%20Development/PES/QA/PES&amp;waid=rVv7TePopkKIzHJw1SjHt-262358e8d7eaTB&amp;wavid=0" />
+						<Parameter Name="PerformanceThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="AccessibilityThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="BestPracticesThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="SEOThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ProgressiveWebAppThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Mobile" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="edge">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/2.Product%20Development/PES/QA/PES&amp;waid=rVv7TePopkKIzHJw1SjHt-262358e8d7eaTB&amp;wavid=0" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Action="Maximize" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object with the right mouse button." Action="ClickR" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="454" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="179" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pagePesTibcoSpotfire.panel" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pagePesTibcoSpotfire.panel" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pagePesTibcoSpotfire.panel" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pagePesTibcoSpotfire.panel" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{199BA578-3663-42AC-A9ED-C65F7B333E54}" />
+</Root>

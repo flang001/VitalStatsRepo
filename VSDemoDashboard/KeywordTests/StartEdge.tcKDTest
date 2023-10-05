@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{59D8F83C-1094-4BCF-A64A-091858AB8460}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="parametrized">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Url" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<BrowserParameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Browser" DefVarType="12" VarType="3" ValueType="1" ValueValue="-6" />
+						<Parameter Name="Version" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Platform" DefVarType="12" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="pX86" />
+								<Value Type="1" Value="1" Text="pX64" />
+								<Value Type="1" Value="-1" Text="pAny" />
+							</Values>
+						</Parameter>
+					</BrowserParameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{9D03984C-F693-4A84-91A4-15B5539A71E5}">
+		<Items>
+			<Variable Name="Url" Type="String" Local="False">
+				<DefValue StrValue="https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/3.Demo/Vitalstats/New%20Demo/VS2.0/VitalStats" />
+			</Variable>
+			<Variable Name="URLQA" Type="String" Local="False">
+				<DefValue StrValue="https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/2.Product%20Development/VitalStats/VS2.0/VS_2.0_QA/VitalStats" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{823C364D-3049-4EEB-A909-C558C563C468}" />
+</Root>
